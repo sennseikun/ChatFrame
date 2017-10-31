@@ -1,0 +1,101 @@
+.chat-frame {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+  border-style: solid;
+  border-color: #666;
+  width: 60%;
+  margin: auto;
+  height: 500px;
+  min-height: 0;
+  overflow: auto;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  background-image: url('http://www.publicdomainpictures.net/pictures/140000/nahled/grey-white-background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+
+}
+
+input[type=text] {
+  border: 3px solid #777;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+.chat-header {
+  display: flex;
+  justify-content: center;
+  background-color: #666;
+  color:white;
+  border-style: solid;
+  border-color: #666;
+  margin: auto;
+  margin-top: 5%;
+  width: 60%;
+  background-image: url('http://centuralondon.ca/sites/default/files/styles/large/public/imagesynchro/vinyl_skus/shaded-space-grey-black.jpg?itok=n75ySn6R');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.receive-container {
+  display: flex;
+  justify-content: flex-start;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.send-container {
+  display: flex;
+  justify-content: flex-end;
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  word-break:break-all;
+}
+
+.receive-message {
+  display: flex;
+  padding:30px;
+  width: 25%;
+  justify-content: center;
+  background-color: #666;
+  color:white;
+  border-style: inline;
+  border-width: 1px;
+  border-color: black;
+  border-radius: 10%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.send-message {
+  display: flex;
+  padding:30px;
+  width: 25%;
+  justify-content : center;
+  background-color: #EEE;
+  border-radius: 10%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-style: inset;
+  border-width: 1px;
+  border-color: black;
+}
